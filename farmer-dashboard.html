@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="assets css/style.css">
+    <link rel="stylesheet" href="assets css/dashboard.css">
+
+</head>
+<script src="assets js/dashboard.js"></script>
+
+<body>
+    <header>
+        <h1>Farmer Dashboard</h1>
+    </header>
+
+    <main>
+        <div></div>
+
+        <div class="dashboard-container">
+            <aside class="sidebar">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">📄 My Jobs</a></li>
+                    <li><a href="#">➕ Add Job</a></li>
+                    <li><a href="#">📩 Applications</a></li>
+                    <li><a href="#">⚙️ Settings</a></li>
+                </ul>
+            </aside>
+
+            <section class="content">
+                <h2>My Job Listings</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Job Name</th>
+                            <th>Time</th>
+                            <th>Wage</th>
+                            <th>Applications</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="job-list">
+                        <!-- Jobs will be added dynamically here -->
+                    </tbody>
+                </table>
+
+                <button id="add-job-btn">➕ Add New Job</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="assets js/script.js"></script>
+</body>
+</html>

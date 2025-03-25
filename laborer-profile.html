@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="assets css/style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>User Profile</h2>
+        
+        <!-- Profile Picture -->
+        <div class="profile-pic">
+            <img id="profileImage" src="default-avatar.png" alt="Profile Picture">
+            <input type="file" id="profilePicUpload">
+        </div>
+
+        <!-- Profile Info -->
+        <form id="profileForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills" required>
+
+            <button type="submit">Update Profile</button>
+        </form>
+
+        <p id="updateMessage" class="hidden">✅ Profile updated successfully!</p>
+    </div>
+
+    <script src="assets js/script.js"></script>
+</body>
+</html>

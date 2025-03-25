@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forums - REH Platform</title>
+    <link rel="stylesheet" href=" assets css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Community Forums</h1>
+    </header>
+
+    <main>
+        <!-- Post New Discussion -->
+        <section id="new-post">
+            <h2>Start a Discussion</h2>
+            <input type="text" id="post-title" placeholder="Enter topic title">
+            <textarea id="post-content" placeholder="Write your post here..."></textarea>
+            <button onclick="addPost()">Post</button>
+        </section>
+
+        <!-- Forum Discussions -->
+        <section id="forum">
+            <h2>Discussions</h2>
+            <div id="posts-container">
+                <!-- Posts will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="assets js/forum.js"></script>
+</body>
+</html>

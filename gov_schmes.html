@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Schemes</title>
+    <link rel="stylesheet" href="assets css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Government Schemes</h1>
+    </header>
+
+    <section id="scheme-list">
+        <h2>Available Schemes</h2>
+        <ul>
+            <li onclick="toggleScheme('scheme1')">PM Kisan Yojana</li>
+            <div id="scheme1" class="scheme-details">
+                <p><strong>Documents Required:</strong> Aadhaar Card, Bank Passbook, Land Documents.</p>
+                <p><strong>Processing Time:</strong> 15-30 days.</p>
+                <p><strong>How to Apply:</strong> Visit <a href="https://pmkisan.gov.in">pmkisan.gov.in</a>.</p>
+            </div>
+
+            <li onclick="toggleScheme('scheme2')">Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)</li>
+            <div id="scheme2" class="scheme-details">
+                <p><strong>Documents Required:</strong> Aadhaar Card, Ration Card.</p>
+                <p><strong>Processing Time:</strong> 7-14 days.</p>
+                <p><strong>How to Apply:</strong> Visit <a href="https://nrega.nic.in">nrega.nic.in</a>.</p>
+            </div>
+
+            <!-- Add 8 more schemes similarly -->
+        </ul>
+    </section>
+
+    <script src="assets js/script.js"></script>
+</body>
+</html>
