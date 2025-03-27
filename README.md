@@ -16,7 +16,7 @@ The REH Platform (Rural Employment Hub) is designed to connect farmers and labor
 🎯 Tech Stack
 Frontend: HTML, CSS, JavaScript
 
-The project will be available at http://localhost:3000.
+The project will be available at https://pavannimbalkar.github.io/REH_project/
 
 📜 License
 This project is open-source under the MIT License.
